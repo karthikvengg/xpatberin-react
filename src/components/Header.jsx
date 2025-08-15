@@ -18,7 +18,6 @@ const buttonStyles = {
   ":hover": { backgroundColor: "#808080", fontWeight: "bold" },
   textTransform: "none",
   width: "80px",
-  color: "black",
   fontSize: "1.0rem",
   //fontWeight: "bold",
 };

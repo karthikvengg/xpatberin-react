@@ -5,7 +5,7 @@ const USERNAME = 'test'
 const PASSWORD = 'test'
 
 // List of allowed hostnames
-const ALLOWED_HOSTS = ['xpatberin-react-1.onrender.com']
+const ALLOWED_HOSTS = ['xpatberin-react.onrender.com']
 
 export default defineConfig({
   plugins: [

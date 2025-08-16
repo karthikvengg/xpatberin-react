@@ -36,6 +36,6 @@ export default defineConfig({
   ],  server: {
     port: 5173,
     host: true,
-    allowedHosts: ['xpatberin-react.onrender.com']
+    allowedHosts: ['xpatberin-react.onrender.com','xpatberlin.com']
   }
 })

@@ -14,7 +14,7 @@ import logo from "../assets/logo.png";
 import { blue } from "@mui/material/colors";
 
 const buttonStyles = {
-  color: "inherit",
+  color: "black",
   ":hover": { backgroundColor: "#808080", fontWeight: "bold" },
   textTransform: "none",
   width: "80px",

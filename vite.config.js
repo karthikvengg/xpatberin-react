@@ -4,9 +4,6 @@ import react from '@vitejs/plugin-react'
 const USERNAME = 'test'
 const PASSWORD = 'test'
 
-// List of allowed hostnames
-const ALLOWED_HOSTS = ['xpatberin-react.onrender.com']
-
 export default defineConfig({
   plugins: [
     react(),
@@ -39,7 +36,6 @@ export default defineConfig({
   ],  server: {
     port: 5173,
     host: true,
-    // Whitelist allowed hosts (built-in Vite check)
-    allowedHosts: ['localhost', 'xpatberin-react-1.onrender.com']
+    allowedHosts: ['xpatberin-react.onrender.com']
   }
 })
